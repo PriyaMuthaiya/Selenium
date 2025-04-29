@@ -13,7 +13,7 @@ public class BrowserOptions {
     public void test_browser(){
         EdgeOptions edgeOpt=new EdgeOptions();
         edgeOpt.addArguments("-headless");
-        edgeOpt.addArguments("")
+
 
         EdgeDriver driver=new EdgeDriver(edgeOpt);
         driver.get("https://app.vwo.com/#/login");

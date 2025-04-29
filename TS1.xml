@@ -3,9 +3,14 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Learning Selenium">
         <classes>
-            <class name="EX_SeleniumBasics.BrowserOptions">
+            <class name="EX_SeleniumBasics.SVGDOMElements">
 
-            <methods><include name="test_browser"/>
+            <methods>
+                <include name="test_browser" />
+                <include name="test_InvalidLogin" />
+                <include name="makeAppointment" />
+                <include name="Handle_SVG" />
+
             </methods>
         </class >
         </classes>
